@@ -8,7 +8,10 @@
 </head>
 <body>
     <header class="navbar">
-        <img class="logo" src="assets/Naga Sakti2.jpg" alt="logo">
+        <div class="logo">
+            <a href="index.html"> <img  src="assets/Naga Sakti2.jpg" alt="logo"></a>
+            <p>PS.NAGA SAKTI</p>
+        </div>
 
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="hamburger">
@@ -26,16 +29,63 @@
         </nav>
     </header>
 
-    <section class="grid">
-        <div class="card">Dasar</div>
-        <div class="card">Menengah</div>
-        <div class="card">Tanding</div>
-    </section>
+    <input type="radio" name="slide" id="dasar" checked>
+    <input type="radio" name="slide" id="menengah">
+    <input type="radio" name="slide" id="tanding">
 
-    <section class="latihan">
-        <div class="lth-foto"><img src="assets/latihan2.jpeg" alt=""><h3>LATIHAN DASAR: Mempelajari gerakan dasar seperti sikap pasang dan kuda-kuda</h3></div>
-        <div class="lth-foto"><img src="assets/latihan4.jpeg" alt=""><h3>LATIHAN MENENGAH: Mempelajari teknik tendangan, pukulan, tangkisan , dan bantingan</h3></div>
-        <div class="lth-foto"><img src="assets/latihan5.png" alt=""><h3>TANDING: Mempelajari teknik menyerang bertahan, strategi, dan mental bertanding </h3></div>
-    </section>
+    <div class="latihan-menu">
+        <label for="dasar">Dasar</label>
+        <label for="menengah">Menengah</label>
+        <label for="tanding">Tanding</label>
+    </div>
+
+    <div class="latihan">
+        <div class="latihan-ctn">
+
+            <section class="latihan-slide">
+                <div class="slide-cont">
+                    <img src="assets/latihan2.jpeg" alt="">
+                    <div class="slide-text">
+                        <h2>DASAR</h2>
+                        <p>Mempelajari gerakan dasar seperti kuda-kuda , sikap, pukulan, tendangan, dan tangkisan.</p>
+                        <p>- Gerakan dasar pencak silat</p>
+                        <p>- Pembentukan sikap dan postur tubuh</p>
+                        <p>- Latihan kekuatan dan kelenturan</p>
+                    </div>
+                </div>
+            </section>
+            <section class="latihan-slide">
+                <div class="slide-cont">
+                    <img src="assets/latihan6.jpeg"alt="">
+                    <div class="slide-text">
+                        <h2>MENENGAH</h2>
+                        <p>Mempelajari teknik tendangan, pukulan, bantingan, serta pengembangan rangkaian gerakan dengan lebih terarah.</p>
+                        <p>- Kombinasi tendangan dan pukulan</p>
+                        <p>- Teknik bantingan dan kuncian dasar</p>
+                        <p>- Pengembangan rangkaian gerak</p>
+                        <p>- Latihan kelincahan, kelenturan, dan keseimbangan</p>
+                    </div>
+                </div>
+            </section>
+            <section class="latihan-slide">
+                <div class="slide-cont">
+                    <img src="assets/latihan7.jpeg" alt="">
+                    <div class="slide-text">
+                        <h2>TANDING</h2>
+                        <p>Mempelajari teknik menyerang, bertahan, serta strategi tanding dengan penguatan mental kesiapan menghadapi lawan.</p>
+                        <p>- Teknik serangan dan pertahanan</p>
+                        <p>- Penguasaan strategi dan teknik bertanding</p>
+                        <p>- Latiha sparring (simulasi pertandingan)</p>
+                        <p>- Pembentukan mental dan percaya diri</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 SilatKu</p>
+    </footer>
 </body>
 </html>
